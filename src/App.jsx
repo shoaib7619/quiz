@@ -2,7 +2,7 @@ import './App.css'
 import React from 'react';
 import questions from './data/question.json'
 import Header from './components/header';
-// import Footer from './components/footer';
+import Footer from './components/footer';
 
 
 function App() {
@@ -87,7 +87,7 @@ function App() {
             <h4>Your Score: {calculateScore()}</h4>
             </div>
 
-      {/* <Footer/> */}
+       <Footer/> 
       </div>
     </>
   )
