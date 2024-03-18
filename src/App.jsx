@@ -11,7 +11,7 @@ function App() {
   const [clickCount, setClickCount] = React.useState(0);
 
   const q = allQuestions[index];
-  const imgSrc = `../src/data/img/${q.img}`;
+  const imgSrc = `../img/${q.img}`;
 
   const onSelectOption = (qimg,op) => {
     const copyQuestions = [...allQuestions];
