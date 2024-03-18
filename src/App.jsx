@@ -57,7 +57,6 @@ function App() {
          <div className="card my-2" key={q.id}>
          <div className="text-center">
           <img src={imgSrc} alt="" height="200px" width="400px" />
-
         </div>
            <ul className="list-group list-group-flush">
              {q.options.map((op) => (
