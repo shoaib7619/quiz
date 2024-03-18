@@ -50,6 +50,7 @@ function App() {
           <div className="text-center">
             <img src={imgSrc} alt="" className="img-fluid img-mobile-width-230" />
           </div>
+          <h4>Select the right option</h4>
           <ul className="list-group list-group-flush">
             {q.options.map((op) => (
               <li
