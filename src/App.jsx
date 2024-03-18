@@ -2,6 +2,7 @@ import './App.css';
 import React from 'react';
 import questions from './data/question.json';
 import Header from './components/header';
+import Footer from './components/footer';
 
 function App() {
   const [allQuestions, setAllQuestions] = React.useState(questions);
@@ -78,8 +79,10 @@ function App() {
           <h4>Your Score: {calculateScore()}</h4>
         </div>
       </div>
+      <Footer/>
     </>
   );
+
 }
 
 export default App;
